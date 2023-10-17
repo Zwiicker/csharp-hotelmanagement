@@ -17,7 +17,6 @@ namespace DesafioProjetoHospedagem.Models
         {
             // TODO: Verificar se a capacidade é maior ou igual ao número de hóspedes sendo recebido
             // -- implementado --
-            if (true)
             bool verificarCapacidade = Suite.Capacidade >= hospedes.Count;
             if (verificarCapacidade)
             {
